@@ -1,0 +1,86 @@
+.container > .row:not(:nth-child(1)) {
+    margin-bottom: 20px;
+}
+
+.bloco1 {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)), url("../images/site_top.jpg");
+    background-size: cover;
+    background-position-y:center;
+    min-height:350px;
+}
+
+    .bloco1 h1 {
+        text-align: center;
+    }
+
+    .bloco1 h4 {
+        text-align: center;
+    }
+
+    .bloco1 .actions {
+        text-align: center;
+    }
+
+        .bloco1 .actions a {
+            margin-bottom: 5px;
+            width: 100%;
+        }
+
+#quem-somos {
+    text-align: center;
+}
+
+    #quem-somos h2 {
+        margin-bottom: 30px;
+    }
+
+    #quem-somos > .row > .col {
+        margin-bottom: 20px;
+    }
+
+#servicos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    #servicos .row > div {
+        margin-bottom: 20px !important;
+        text-align: center;
+    }
+
+#galeria {
+    margin-bottom: 20px;
+}
+
+#galeria h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#footer {
+    background-color: #212529;
+    color: #CCC;
+}
+    #footer h5 {
+        color: #FFF;
+        margin-bottom: 20px;
+    }
+
+    #footer ul {
+        list-style: none;
+        padding: 0;
+    }
+        #footer ul li {
+            margin-bottom: 10px;
+        }
+
+    #footer #payment li{
+        display: inline;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    #footer .payment-icon-pix {
+        filter: invert(82%) sepia(0%) saturate(1121%) hue-rotate(151deg) brightness(84%) contrast(89%);
+        width: 25px;
+    }
