@@ -1,5 +1,5 @@
-.container > .row:not(:nth-child(1)) {
-    margin-bottom: 20px;
+.container-xl > .row:not(:nth-child(1)) {
+    margin-bottom: 30px;
 }
 
 .bloco1 {
@@ -83,4 +83,9 @@
     #footer .payment-icon-pix {
         filter: invert(82%) sepia(0%) saturate(1121%) hue-rotate(151deg) brightness(84%) contrast(89%);
         width: 25px;
+    }
+
+    #footer .sm_link {
+        color: #CCC;
+        text-decoration: none;
     }
